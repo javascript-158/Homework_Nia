@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <img id="Photo" style="width: 900px; height: 500px;" src="images/nature-wallpaper-07-770x481.jpg" alt="Photo">
+    <div>
+        <button class="button1" onclick="ZoomIn()">ფოტოს ზომის გაზრდა</button>
+        <button class="button2" onclick="ZoomOut()">ფოტოს ზომის შემცირება</button>
+    </div>
+ 
+    <!-- მეორე დავალება ფერების ცვლილება -->
+    <div>
+        <button class="textColor" onclick="ChangeColor()"> დააჭირე ფერის შესაცვლელად </button>
+        <div id="box" style="width: 200px; height: 200px; background-color: rgb(241, 88, 195); margin: 5px 0 5px;">
+            <div id="child" style="height: 100px; width: 100px; background-color: red;"></div>
+        </div>
+    </div>
+
+    <!-- ტექსტის დამალვა-გამოჩენა -->
+    <div>
+        <!-- <input type="text" placeholder="ჩაწერე პაროლი..."> -->
+        <button id="show" onclick="showText()">ჩვენება</button>
+        <p id="result"></p>
+        <button id="hide" onclick="hideText()">დამალვა</button>
+    </div>
+
+    <script src="Javascripts/dom.js"></script>
+</body>
+</html>
