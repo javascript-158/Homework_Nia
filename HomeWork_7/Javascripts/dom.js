@@ -28,13 +28,8 @@ function ChangeColor(){
 
 let show = document.getElementById("show");
 let hide = document.getElementById("hide");
-let result = document.getElementById("result");
+let text = document.getElementById("text");
+document.getElementById("result").style.display='none'
 
-// function showText{
-//     result.style.display = "block"
-//     result.style.color = "red"
-//     result.innerHTML = "heyy world";
-// }
-// function hideText{
-
-// }
+// function showText{}
+// function hideText{}
